@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
 body{
     background-color: rgb(46, 46, 70);
     
@@ -19,6 +21,17 @@ body{
     border-radius: 5px; 
 }
 
+#calc-operation {
+    font-size: 1.3rem;
+    text-align: right;
+    color: #727B86;
+    padding-bottom: .5rem;
+}
+#calc-typed {
+    font-size: 2rem;
+    text-align: right;
+    color: #fff;
+}
 
 .calc-button-row{
     display: table;
@@ -39,7 +52,7 @@ body{
 .numbers:hover{
 background-color: rgb(201, 197, 197);
 }
-.topRow{
+.operation{
     background-color: #294668;
     display: table-cell;
     width: 20%;
@@ -49,9 +62,10 @@ background-color: rgb(201, 197, 197);
     border: none;
     color: #fff;
     margin: 10px;
+    box-shadow: #98c1f7;
     
 }
-.topRow:hover{
+.operation:hover{
     background-color: rgb(201, 197, 197);
 }
 
@@ -70,3 +84,16 @@ background-color: rgb(201, 197, 197);
 .equal:hover{
     background-color: rgb(201, 197, 197);
 }
+
+.screen input {
+    width: 100%;
+    padding: 15px 10px;
+    text-align: right;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 35px;
+  }
+  .screen input::placeholder {
+    color: #9490ac;
+  }

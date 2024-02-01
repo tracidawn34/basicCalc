@@ -8,29 +8,33 @@
 </head>
 <body>
    <div class="cBody">
-   <div class="screen">
-
+    
+   <div id = 'result' class="screen">
+    <input type="text" placeholder="" id="input" disabled />
+    <div id="calc-operation"></div>
+    <div id="calc-typed"></div>
    </div>
    <div class="calc-button-row">
-    <button class="topRow">+</button>
-    <button class="topRow">-</button>
-    <button class="topRow">&#215</button>
-    <button class="topRow">&#247</button>
+    <button type="button" value= '+' class="operation">+</button>
+    <button type="button" value= '-' class="operation">-</button>
+    <button type="button" value= '&#215' class="operation">&#215</button>
+    <button type="button" value= '&#247' class="operation">&#247</button>
 
-    <button class="numbers">7</button>
-    <button class="numbers" >8</button>
-    <button class="numbers">9</button>
-    <button class="numbers">4</button>
-    <button class="numbers">5</button>
-    <button class="numbers">6</button>
-    <button class="numbers">1</button>
-    <button class="numbers">2</button>
-    <button class="numbers">3</button>
-    <button class="numbers">0</button>
-    <button class="numbers">.</button>
-    <button class="numbers">C</button>
-    <button class="equal">=</button>
+    <button type="button" value= '7' class="numbers">7</button>
+    <button type="button" value= '8' class="numbers" >8</button>
+    <button type="button" value= '9' class="numbers">9</button>
+    <button type="button" value= '4' class="numbers">4</button>
+    <button type="button" value= '5' class="numbers">5</button>
+    <button type="button" value= '6' class="numbers">6</button>
+    <button type="button" value= '1' class="numbers">1</button>
+    <button type="button" value="2" class="numbers">2</button>
+    <button type="button" value= '3' class="numbers">3</button>
+    <button type="button" value= '0' class="numbers">0</button>
+    <button type="button" value= '.' id="decimal" class="numbers">.</button>
+    <button type="button" value= '' id="clear" class="numbers">C</button>
+    <button type="button" id="equalTo" class="equal">=</button>
 </div>
    </div> 
+   <script src="main.js"></script>
 </body>
 </html>
